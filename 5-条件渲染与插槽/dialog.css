@@ -1,0 +1,32 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    padding: 20px;
+    position: relative;
+    color: tomato;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    flex: 1
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+button {
+    border: 0 none;
+    background: salmon;
+    color: antiquewhite;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+}
+button.activeTab {
+    background: teal;
+}
